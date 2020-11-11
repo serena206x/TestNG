@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="D:/Workspaces2/zdframe/com/wincode/test/SKU/SkuManagementTestSuite.java">
+        <classes><class name="com.wincode.test.SKU.SkuManagementTestSuite">
+            <methods>
+                <include name="addSkuDisplay"/>
+                <include name="addSkuBlank"/>
+                <include name="addSkuMin"/>
+                <include name="addSkuXSS"/>
+                <include name="addSkuStringinput"/>
+                <include name="addSkuSQL"/>
+                <include name="addSkuAttributeDelete"/>
+                <include name="addSkuCancel"/>
+                <include name="addSkuSucceed"/>
+                <include name="addSkuDuplicate"/>
+                <include name="addSkubatch"/>
+                <include name="Modify"/>
+                <include name="ModifySuccess"/>
+                <include name="deleteSingle"/>
+                <include name="DeleteCheckAll"/>
+                <include name="SwitchtoView"/>
+                <include name="Export"/>
+            </methods>
+        </class>
+        </classes>
+    </test>
+</suite>
